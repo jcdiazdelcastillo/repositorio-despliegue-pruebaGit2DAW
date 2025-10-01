@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header y navegación */
+header, footer {
+    background-color: #2E8B57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    margin: 0 15px;
+    font-weight: bold;
+}
+a{
+    margin-left: 10px;
+    
+}
+a:hover{
+    color:white;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #2E8B57;
+    margin-bottom: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    margin:auto; /*centrar el formulario*/
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /*para darle relieve*/
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; /*transformar los label en elementos de bloque y que se pueda poner el label arriba y el input abajo*/
+    font-weight: bold;
+}
+
+input[type="text"], /* de esta forma se coge y se le aplica el css a todos los input*/
+input[type="email"],
+input[type="number"],
+select {
+    display: block; /*para superponerlo al footer*/
+    padding: 8px;
+    border-radius: 5px;
+    width:400px;
+    margin:30px;
+}
+
+.radio-individual {
+  
+    background-color: #e0f7fa;
+    border: 1px solid#00bcd4;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    text-align: center;
+    color:#2E8B57;
+}

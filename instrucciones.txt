@@ -1,0 +1,1 @@
+en esta versión quitaremos todos los warnings y solo visualizaremos los checks q ha marcado el usuario
